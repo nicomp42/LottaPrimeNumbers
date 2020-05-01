@@ -97,7 +97,4 @@ public class LottaPrimeNumbers {
         }
         return primes;
     }
-	
-	
-	
 }
