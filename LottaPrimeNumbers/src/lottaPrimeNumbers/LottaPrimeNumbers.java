@@ -85,7 +85,7 @@ public class LottaPrimeNumbers {
 	@SuppressWarnings("unchecked")
 	private static java.util.List<Long> ReadPrimes() {
 		//ArrayList<Long> primes = new ArrayList<Long>();
-		java.util.List<Long> primes = Arrays.asList(new Long[600000]);
+		ArrayList<Long> primes = new ArrayList<Long>(5_800_800);	// This is an informed guess
         try {
             FileInputStream fis = new FileInputStream("primes.ser");
             ObjectInputStream ois = new ObjectInputStream(fis);
